@@ -116,15 +116,8 @@ nav a{
 nav a:hover{
     color: #2196F3;
 }
-.studio-border a:hover{
-    color: #2196F3;
-    border-bottom: solid 4px;
 
-}
 
-.icon{
-
-}
     
 
 
@@ -200,12 +193,24 @@ h1{
     padding-top: 94px;
     
 }
+
+.icons{
+    display: flex;
+    width: 270px;
+    background-color: #F5F4FA;
+    justify-content: center;
+}
+   
+
 .second-section .center-container{
     display: flex;
     width: 1200px;
     gap: 30px;
     margin: auto;
-    
+    justify-content: center;
+}
+.second-section .center-container h3{
+    margin-top: 30px;
 }
 
 
@@ -218,6 +223,7 @@ h1{
 }
 .what-we-do-container ul{
     display: flex;
+    margin-top: 50px;
     gap: 30px;
 }
 
@@ -239,13 +245,22 @@ h2{
     margin: auto;
     width: 100%;
     height: 648px;
+    margin-top: 94px;
     
 }
 
 .third-section ul{
     display: flex;
     justify-content: center;
+    gap: 30px;
+    
 }
+.third-section ul li{
+    box-shadow: 0px 2px 1px 0px #00000033;
+    background: #FFFFFF; 
+}
+
+
 
 .third-section h3{
     font-family: var(--font-family);
@@ -260,6 +275,19 @@ h2{
     color: #757575;
     text-align: center;
 }
+
+.first-card-svg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.first-card-svg svg{
+    background: #FFFFFF;
+    cursor: pointer;
+  
+}
+
 
 
 
@@ -375,12 +403,21 @@ ul{
 
 }
 .regular-customers li{
-    margin: 30px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-
+    display: flex;
+    margin: 30px; 
+    
     
 }
+.customers-border{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;  
+}
+
+
+
+
 
 
     
@@ -435,12 +472,40 @@ footer address{
     padding-left: 215px;
 }
 
-.find-us-on{
+.footer-parent-container{
+    display: flex;
+}
+.footer-child-container h4{
+    padding-bottom: 20px;
+}
+.footer-child-container ul{
+    display: flex;
+    gap: 15px;
+    padding-left: 15px;
+}
+
+.footer-child-container ul li{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    width: 44px;
+    height: 44px;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+.footer-child-container ul li:hover{
+    background-color: var(--icon-color);
+    cursor: pointer;
+}
+
+.footer-child-container:nth-child(2){
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 80px;
+    padding-left: 100px;
 
 }
+
 
 
 
