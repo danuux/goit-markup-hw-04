@@ -57,6 +57,7 @@
     align-items: center;
     gap: 10px;
     height: 20px;
+    fill: #757575;
 }
 .contact-telephone:hover .icon{
     fill: var(--icon-color);
@@ -68,6 +69,7 @@
     margin-left: 40px;
     gap: 10px;
     height: 20px;
+    fill: #757575;
 }
 
 
@@ -255,10 +257,14 @@ h2{
     gap: 30px;
     
 }
+
 .third-section ul li{
     box-shadow: 0px 2px 1px 0px #00000033;
     background: #FFFFFF; 
+    height: 428px;
+
 }
+
 
 
 
@@ -276,17 +282,29 @@ h2{
     text-align: center;
 }
 
-.first-card-svg{
+.third-section-svg{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
 
 }
-.first-card-svg svg{
+.third-section-svg svg{
     background: #FFFFFF;
     cursor: pointer;
+    margin-top: 20px;
+    fill: #AFB1B8;
   
 }
+
+.third-section-svg svg:hover{
+    background-color: var(--icon-color);
+    border-radius: 100%;
+    width: 44px;
+    fill: #FFFFFF;
+}
+
+
 
 
 
@@ -307,6 +325,9 @@ h2{
 .button-filter ul li button:hover{
     background-color: #2196F3;
     color: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #00000014;
+
+
 
 }
 .button-filter ul li button:focus{
@@ -364,6 +385,10 @@ ul{
 .portfolio-images ul li:hover{
     box-shadow: 1px 4px 6px 0px #00000029;
 
+;
+;
+    
+
 }
 .portfolio-images h3{
     margin-left: 24px;
@@ -408,11 +433,23 @@ ul{
     
     
 }
+.regular-customers li svg:hover{
+    fill: var(--icon-color);
+}
+.regular-customers li svg{
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    fill: #AFB1B8;
+}
 .customers-border{
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;  
+}
+.customers-border:hover{
+    border-color: var(--icon-color);
 }
 
 
